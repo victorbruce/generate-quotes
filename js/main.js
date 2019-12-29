@@ -22,11 +22,11 @@ const btn = document.getElementById('btn');
 const quote = document.getElementById('quote');
 const author = document.getElementById('author');
 
-// event listeners
-btn.addEventListener('click', getQuote);
-
-function getQuote() {
+const getQuote = () => {
   let number = Math.floor(Math.random()  * quotes.length); 
   quote.innerHTML = `<span>"</span>${quotes[number].quote}<span>"</span>`;
-  author.innerHTML = `<span>--</span>${quotes[number].author}`;
+  author.innerHTML = `<span>-- </span>${quotes[number].author}`;
 } 
+
+// event listeners
+btn.addEventListener('click', getQuote);
