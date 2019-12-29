@@ -24,7 +24,32 @@ body {
   font-size: 1.2rem;
 }
 
-.container {
+#quote-text {
   display: flex;
   flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
 }
+
+#quote {
+  padding-bottom: 30px;
+}
+
+#author {
+  padding-bottom: 30px;
+  color: #555;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#btn {
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
