@@ -28,10 +28,10 @@ const numberOfQuotesToGenerate = (number) => {
     }
   } else if (typeof(number) !== 'number') {
     console.log('Please enter a number');
-    getUserInput();
+    // getUserInput();
   } else {
     console.log('Please enter a number between (1 and 5)');
-    getUserInput();
+    // getUserInput();
   }
   console.log('Press 1 to run again and 0 to exist ')
   prompt.start()
