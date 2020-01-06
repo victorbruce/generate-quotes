@@ -53,3 +53,11 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  padding-bottom: 20px;
+}
+
+p {
+  color: #444;
+}
+
